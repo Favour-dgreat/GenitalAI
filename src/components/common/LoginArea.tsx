@@ -27,7 +27,7 @@ const LogingArea = ({ style }: any) => {
                         </div>
                         <div className="eg-login__social mb-10 ">
                            <div className="eg-login__option-item">
-                              <Link to="#"><img src="/assets/img/icons/google.svg" alt="" /> Sign in with google </Link>
+                              <Link to="#"><img src="/assets/img/icons/google.snvg" alt="" /> Sign in with google </Link>
                            </div>
                            <div className="eg-login__option-item">
                               <Link to="#">  <img src="/assets/img/icons/facebook.svg" alt="" /> Sign in with facebook </Link>

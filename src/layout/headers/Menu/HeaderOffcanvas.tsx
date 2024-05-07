@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom"
 
+<style>
+
+</style>
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const HeaderOffcanvas = ({ offCanvas, setOffCanvas }: any) => {
    return (
@@ -29,10 +32,10 @@ const HeaderOffcanvas = ({ offCanvas, setOffCanvas }: any) => {
                   </div> */}
                </div>
                <div className="social-icon-right mt-30">
-                  <Link to="#"><i className="fab fa-facebook-f"></i></Link>
+             
+                  <Link to="#"><i className="fab fa-telegram"></i></Link>
                   <Link to="#"><i className="fab fa-twitter"></i></Link>
-                  <Link to="#"><i className="fab fa-google-plus-g"></i></Link>
-                  <Link to="#"><i className="fab fa-instagram"></i></Link>
+                  <Link to="#"><img src="./assets/img/images/dextools-logo.png" alt="" style={{width: "20px"}}/> </Link>
                </div>
             </div>
             <div onClick={() => setOffCanvas(false)} className={`offcanvas-overly ${offCanvas ? "active" : ""}`}></div>

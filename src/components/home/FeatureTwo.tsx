@@ -8,18 +8,14 @@ const feature_data: DataType[] = [
    {
       id: 1,
       title: "AI Multimodal",
-      img: "/assets/img/images/features_two_img01.png"
+      img: "/assets/img/images/features_two_img01.jpeg"
    },
    {
       id: 2,
       title: "Large Language Models",
-      img: "/assets/img/images/features_two_img02.png"
+      img: "/assets/img/images/features_two_img02.jpeg"
    },
-   {
-      id: 3,
-      title: "Mobile Payment Make Easy",
-      img: "/assets/img/images/features_two_img03.png"
-   }
+   
 ]
 
 const FeatureTwo = () => {
