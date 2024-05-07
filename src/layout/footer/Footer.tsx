@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import NewsletterForm from "../../components/forms/NewsletterForm";
 
 interface DataType {
    id: number;
