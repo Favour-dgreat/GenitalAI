@@ -56,10 +56,8 @@ const Footer = () => {
 
                      <div className="col-xl-3 col-lg-4 col-sm-8">
                         <div className="footer-widget">
-                           <h4 className="fw-title">Subscribe Newsletter</h4>
                            <div className="footer-newsletter">
-                              <p>Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo</p>
-                              <NewsletterForm />
+                              <p>Redefining Problem-Solving with Advanced AI</p>
                            </div>
                         </div>
                      </div>
