@@ -16,8 +16,8 @@ const Sidebar = ({ isActive, setIsActive }: any) => {
                     </div>
                     <div className="social-links">
                         <ul className="clearfix list-wrap">
-                            <li><a href="#"><i className="fab fa-telegram"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                            <li><a href="https://t.me/gentialaiportal"><i className="fab fa-telegram"></i></a></li>
+                            <li><a href="https://twitter.com/GentialAiERC"><i className="fab fa-twitter"></i></a></li>
                             <li><a href="#"><i> <img src="./assets/img/images/dextools-logo.png" alt="" /> </i></a></li>
                         </ul>
                     </div>

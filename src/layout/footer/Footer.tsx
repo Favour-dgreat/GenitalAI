@@ -27,7 +27,7 @@ const footer_data: DataType[] = [
       id: 3,
       class_name: "col-xl-3 col-lg-3 col-md-4 col-sm-4",
       title: "Join Our Community",
-      footer_link: [{ link: "https://t.me/gentialaiportal", link_title: "Telegram" }, { link: "#", link_title: "Twitter" }]
+      footer_link: [{ link: "https://t.me/gentialaiportal", link_title: "Telegram" }, { link: "https://twitter.com/GentialAiERC", link_title: "Twitter" }]
    },
 ]
 
