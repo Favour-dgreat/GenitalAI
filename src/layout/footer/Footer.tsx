@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 interface DataType {
    id: number;
@@ -15,19 +15,19 @@ const footer_data: DataType[] = [
       id: 1,
       class_name: "col-xl-3 col-lg-3 col-md-4 col-sm-6",
       title: "Usefull Links",
-      footer_link: [{ link: "#", link_title: "Home" }, { link: "#", link_title: "Feature" }, { link: "#", link_title: "Tokenomics" }, { link: "#", link_title: "Roadmap" }]
+      footer_link: [{ link: "/#banner", link_title: "Home" }, { link: "/#feature", link_title: "Feature" }, { link: "/#chart", link_title: "Tokenomics" }, { link: "/#roadMap", link_title: "Roadmap" }]
    },
    {
       id: 2,
       class_name: "col-xl-3 col-lg-2 col-md-4 col-sm-6",
       title: "Find Out More",
-      footer_link: [{ link: "/https://cryptoshield-1.gitbook.io/gentialai-docs", link_title: "Roadmap" }]
+      footer_link: [{ link: "/https://cryptoshield-1.gitbook.io/gentialai-docs", link_title: "Whitepaper" }]
    },
    {
       id: 3,
       class_name: "col-xl-3 col-lg-3 col-md-4 col-sm-4",
       title: "Join Our Community",
-      footer_link: [{ link: "#", link_title: "Telegram" }, { link: "#", link_title: "Twitter" }]
+      footer_link: [{ link: "https://t.me/gentialaiportal", link_title: "Telegram" }, { link: "#", link_title: "Twitter" }]
    },
 ]
 

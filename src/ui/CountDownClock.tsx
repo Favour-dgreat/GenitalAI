@@ -3,8 +3,8 @@ import { useTimer } from 'react-timer-hook';
 const CountdownClock=()=> {
   // Set the expiration timestamp based on the current time plus the desired duration
   const time = new Date();
-  time.setDate(time.getDate() + 302); // 302 days
-  time.setHours(time.getHours() + 2); // 2 hours
+  time.setDate(time.getDate() + 7); // 302 days
+  time.setHours(time.getHours() + 0); // 2 hours
   time.setMinutes(time.getMinutes() + 59); // 59 minutes
   time.setSeconds(time.getSeconds() + 59); // 59 seconds
 

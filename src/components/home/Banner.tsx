@@ -2,7 +2,7 @@ import CountdownClock from "../../ui/CountDownClock"
 
 const Banner = () => {
    return (
-      <section className="banner-area banner-bg" style={{ backgroundImage: `url(/assets/img/banner/banner_bg.png)` }}>
+      <section id="banner" className="banner-area banner-bg" style={{ backgroundImage: `url(/assets/img/banner/banner_bg.png)` }}>
          <div className="container">
             <div className="row justify-content-center">
                <div className="col-lg-10">

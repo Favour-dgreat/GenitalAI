@@ -54,7 +54,7 @@ const FeatureOne = () => {
                   <div key={item.id} className="col-lg-6">
                      <div className="features-item">
                         <div className="features-content">
-                           <h2 className="title"><Link to="#!">{item.title}</Link></h2>
+                           <h2 className="title"><Link to="#">{item.title}</Link></h2>
                            <p>{item.desc}</p>
                         </div>
                         <div className="features-img">
