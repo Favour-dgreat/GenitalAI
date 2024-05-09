@@ -10,7 +10,7 @@ const Banner = () => {
                      <h2 className="title">Discover the Next Big Opportunity with: <br /> <span>GenitalAI</span></h2>
                      <p>llluminating the Future with Dynamic Artificial Intelligence</p>
                      <div className="banner-countdown-wrap">
-                        <div className="coming-time" data-countdown="2024/8/29">
+                        <div className="coming-time" data-countdown="2024/5/15">
                            <CountdownClock />
                         </div>
                      </div>

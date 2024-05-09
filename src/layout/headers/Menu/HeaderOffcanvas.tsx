@@ -33,8 +33,8 @@ const HeaderOffcanvas = ({ offCanvas, setOffCanvas }: any) => {
                </div>
                <div className="social-icon-right mt-30">
              
-                  <Link to="#"><i className="fab fa-telegram"></i></Link>
-                  <Link to="#"><i className="fab fa-twitter"></i></Link>
+                  <Link to="https://t.me/gentialaiportal"><i className="fab fa-telegram"></i></Link>
+                  <Link to="https://twitter.com/GentialAiERC"><i className="fab fa-twitter"></i></Link>
                   <Link to="#"><img src="./assets/img/images/dextools-logo.png" alt="" style={{width: "20px"}}/> </Link>
                </div>
             </div>
