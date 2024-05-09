@@ -5,7 +5,7 @@ const CountdownClock=()=> {
   const time = new Date();
   time.setDate(time.getDate() + 6); // 302 days
   time.setHours(time.getHours() + 2); // 2 hours
-  time.setMinutes(time.getMinutes() + 18); // 59 minutes
+  time.setMinutes(time.getMinutes() + 1); // 59 minutes
   time.setSeconds(time.getSeconds() + 1); // 59 seconds
 
   const {
